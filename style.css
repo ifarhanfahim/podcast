@@ -268,11 +268,11 @@ body:hover::-webkit-scrollbar-thumb { background-color: var(--surface-variant); 
 .volume { display: none; }
 
 .player {
-  --padding: 24px;
+  --padding: 25px;
   background-image: var(--gradient);
   padding: var(--padding);
   padding-block-start: calc(64px + var(--padding));
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   text-align: center;
   backdrop-filter: blur(30px);
